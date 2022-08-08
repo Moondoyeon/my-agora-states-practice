@@ -18,7 +18,7 @@ const discussionsRouter = require('./router/discussions');
 app.use('/discussions', discussionsRouter);
 
 app.get('/', (req, res) => {
-  res.status(201).send('Welcome, My Agora States Server!');
+  res.status(205).send('Welcome, My Agora States Server!');
 });
 
 const server = app.listen(port, () => {
